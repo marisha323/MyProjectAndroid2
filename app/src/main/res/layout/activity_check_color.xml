@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D220E9"
+    android:id="@+id/container"
+    tools:context=".CheckColorActivity">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:layout_marginStart="50dp"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47000003">
+
+    <CheckBox
+        android:id="@+id/redCheckBox"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="26dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="211dp"></CheckBox>
+    <TextView
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="red"
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        ></TextView>
+
+    <CheckBox
+        android:id="@+id/blueCheckBox"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="26dp"
+
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="151dp"></CheckBox>
+    <TextView
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="92dp"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="blue"
+        android:textColor="#0063FF"
+        android:textSize="22dp"
+        ></TextView>
+
+    <CheckBox
+        android:id="@+id/yellowCheckBox"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="26dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="94dp"></CheckBox>
+    <TextView
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="152dp"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="yellow"
+        android:textColor="#FFDD00"
+        android:textSize="22dp"
+        ></TextView>
+
+    <CheckBox
+        android:id="@+id/greenCheckBox"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="26dp"
+
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="40dp"></CheckBox>
+    <TextView
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="212dp"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="green"
+        android:textColor="#00DD00"
+        android:textSize="22dp"
+
+        ></TextView>
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

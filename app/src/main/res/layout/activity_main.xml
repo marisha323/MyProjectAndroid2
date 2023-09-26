@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#458BDD"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckColor"
+        android:onClick="NextPage">
+    </Button>
+
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="#ECF922"
+
+        android:text=""
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:layout_marginStart="50dp"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47000003">
+
+        <Button
+            android:id="@+id/buttonAC"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_row="0"
+            android:backgroundTint="#FFDD00"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:text="AC"
+            app:cornerRadius="40dp" />
+
+
+        <Button
+            android:id="@+id/buttonPLUSMINUS"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:backgroundTint="#FFDD00"
+            android:layout_margin="5dp"
+            android:text="+/-"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/buttonProzent"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:text="%"
+            android:backgroundTint="#FFDD00"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/buttonDilenya"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            android:text="÷"
+            android:backgroundTint="#FFDD00"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:text="7"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:text="8"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:text="9"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/buttonMnozenay"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_margin="5dp"
+            android:text="×"
+            android:backgroundTint="#FFDD00"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:text="4"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:text="5"
+            app:cornerRadius="40dp" />
+        ///
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:text="6"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/buttonVidnimay"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_margin="5dp"
+            android:text="-"
+            android:backgroundTint="#FFDD00"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:text="1"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:text="2"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:text="3"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/buttonDodavanay"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_margin="5dp"
+            android:text="+"
+            android:backgroundTint="#FFDD00"
+            app:cornerRadius="40dp" />
+        <Button
+            android:id="@+id/buttonDorivnye"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:layout_margin="5dp"
+            android:text="="
+            android:backgroundTint="#FFDD00"
+            app:cornerRadius="40dp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_margin="5dp"
+            android:text="0"
+            app:cornerRadius="40dp" />
+        <Button
+            android:id="@+id/buttonKoma"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:text=","
+            app:cornerRadius="40dp" />
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
